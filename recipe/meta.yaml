@@ -35,6 +35,8 @@ requirements:
     - {{ compiler('c') }}        # [not win]
     - {{ compiler('fortran') }}  # [not win]
     - {{native}}toolchain        # [win]
+    - {{posix}}filesystem        # [win]
+    - {{posix}}make
     - r-formula
     - r-acepack
     - r-base64enc

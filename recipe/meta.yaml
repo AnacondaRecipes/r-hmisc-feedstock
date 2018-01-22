@@ -10,8 +10,8 @@ package:
 source:
   fn: Hmisc_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/Hmisc_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/Hmisc/Hmisc_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Hmisc_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/Hmisc/Hmisc_{{ version }}.tar.gz
   sha256: 5d395286d699bcabb6460c91798019d84b1cfa7a033841aa3ac5a02f4407e4fd
 
 
